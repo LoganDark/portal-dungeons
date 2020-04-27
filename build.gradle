@@ -28,6 +28,9 @@ dependencies {
 
 	modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
 
+	modApi "me.shedaniel.cloth:config-2:2.9.3"
+	modApi "io.github.prospector:modmenu:1.10.1+build.30"
+
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.
 }
