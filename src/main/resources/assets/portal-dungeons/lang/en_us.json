@@ -1,6 +1,5 @@
 {
+	"portal-dungeons.config.category.spawning": "Spawning",
 	"portal-dungeons.config.spawn_chance": "Portal Dungeon Spawn Chance",
-	"portal-dungeons.config.spawn_chance.tooltip": "The chance per chunk a portal dungeon will spawn",
-	"portal-dungeons.config.room_chance": "Portal Dungeon Room Chance",
-	"portal-dungeons.config.room_chance.tooltip": "While a portal dungeon is generating, the chance another room will spawn, per room"
+	"portal-dungeons.config.room_chance": "Portal Dungeon Room Chance"
 }
