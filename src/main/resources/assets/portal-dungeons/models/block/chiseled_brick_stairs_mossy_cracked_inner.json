@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "portal-dungeons:block/chiseled_bricks_mossy_cracked",
+        "top": "portal-dungeons:block/chiseled_bricks_mossy_cracked",
+        "side": "portal-dungeons:block/chiseled_bricks_mossy_cracked"
+    }
+}

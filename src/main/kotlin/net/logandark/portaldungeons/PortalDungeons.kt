@@ -1,6 +1,7 @@
 package net.logandark.portaldungeons
 
 import net.fabricmc.api.ModInitializer
+import net.logandark.portaldungeons.block.*
 import net.minecraft.util.Identifier
 
 // For support join https://discord.gg/v6v4pMv
@@ -18,6 +19,36 @@ object PortalDungeons : ModInitializer {
 		PortalDungeonsConfig.save()
 
 		println("Hello Fabric world!")
+
+		registerBlocks()
+	}
+
+	private fun registerBlocks() {
+		BricksBlock.register()
+		MossyBricksBlock.register()
+		CrackedBricksBlock.register()
+		MossyCrackedBricksBlock.register()
+		BrickStairsBlock.register()
+		MossyBrickStairsBlock.register()
+		CrackedBrickStairsBlock.register()
+		MossyCrackedBrickStairsBlock.register()
+		BrickSlabBlock.register()
+		MossyBrickSlabBlock.register()
+		CrackedBrickSlabBlock.register()
+		MossyCrackedBrickSlabBlock.register()
+		ChiseledBricksBlock.register()
+		ChiseledMossyBricksBlock.register()
+		ChiseledCrackedBricksBlock.register()
+		ChiseledMossyCrackedBricksBlock.register()
+		ChiseledBrickStairsBlock.register()
+		ChiseledMossyBrickStairsBlock.register()
+		ChiseledCrackedBrickStairsBlock.register()
+		ChiseledMossyCrackedBrickStairsBlock.register()
+		ChiseledBrickSlabBlock.register()
+		ChiseledMossyBrickSlabBlock.register()
+		ChiseledCrackedBrickSlabBlock.register()
+		ChiseledMossyCrackedBrickSlabBlock.register()
+		LanternBlock.register()
 	}
 
 	fun identifier(path: String) = Identifier(modid, path)

@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"type=bottom": { "model": "portal-dungeons:block/brick_slab_mossy" },
+		"type=top": { "model": "portal-dungeons:block/brick_slab_mossy_top" },
+		"type=double": { "model": "portal-dungeons:block/bricks_mossy" }
+	}
+}

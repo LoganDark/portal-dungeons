@@ -1,0 +1,8 @@
+{
+	"parent": "block/stairs",
+	"textures": {
+		"bottom": "portal-dungeons:block/bricks_mossy",
+		"top": "portal-dungeons:block/bricks_mossy",
+		"side": "portal-dungeons:block/bricks_mossy"
+	}
+}

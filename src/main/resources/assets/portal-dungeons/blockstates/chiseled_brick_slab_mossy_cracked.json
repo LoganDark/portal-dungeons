@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"type=bottom": { "model": "portal-dungeons:block/chiseled_brick_slab_mossy_cracked" },
+		"type=top": { "model": "portal-dungeons:block/chiseled_brick_slab_mossy_cracked_top" },
+		"type=double": { "model": "portal-dungeons:block/chiseled_bricks_mossy_cracked" }
+	}
+}

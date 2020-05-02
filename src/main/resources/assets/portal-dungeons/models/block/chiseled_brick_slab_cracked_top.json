@@ -1,0 +1,8 @@
+{
+	"parent": "block/slab_top",
+	"textures": {
+		"bottom": "portal-dungeons:block/chiseled_bricks_cracked",
+		"top": "portal-dungeons:block/chiseled_bricks_cracked",
+		"side": "portal-dungeons:block/chiseled_bricks_cracked"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "block/slab",
+	"textures": {
+		"bottom": "portal-dungeons:block/bricks",
+		"top": "portal-dungeons:block/bricks",
+		"side": "portal-dungeons:block/bricks"
+	}
+}
