@@ -2,6 +2,7 @@ package net.logandark.portaldungeons
 
 import net.fabricmc.api.ModInitializer
 import net.logandark.portaldungeons.block.*
+import net.logandark.portaldungeons.structure.PortalDungeonEntranceFeature
 import net.minecraft.util.Identifier
 
 // For support join https://discord.gg/v6v4pMv
@@ -21,6 +22,8 @@ object PortalDungeons : ModInitializer {
 		println("Hello Fabric world!")
 
 		registerBlocks()
+
+		PortalDungeonEntranceFeature.register()
 	}
 
 	private fun registerBlocks() {
